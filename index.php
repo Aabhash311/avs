@@ -37,14 +37,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <body>
     <h2>PHP Calculator</h2>
     <form method="POST">
-        <input type="text" name="num1" placeholder="Enter first number" required>
+        <input type="text" name="num1" placeholder="Enter 1st number" required>
         <select name="operator">
             <option value="+">+</option>
             <option value="-">-</option>
             <option value="*">*</option>
             <option value="/">/</option>
         </select>
-        <input type="text" name="num2" placeholder="Enter second number" required>
+        <input type="text" name="num2" placeholder="Enter 2nd number" required>
         <input type="submit" value="Calculate">
     </form>
 
